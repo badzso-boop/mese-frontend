@@ -1,38 +1,99 @@
 .App {
-  text-align: center;
+    margin: auto;
+    width: 75%;
+    padding: 25px;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+    font-family: "Reem Kufi Fun", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.page {
+    background-image: url("img/proba.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.page-content {
+    margin: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.page-number-bottom-ptlan {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.page-number-bottom-prs {
+    margin-top: -10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.page-number {
+    position: absolute;
+    right: 25px;
+}
+
+.number-container {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    height: 25px;
+    border-top: 2px solid black;
+}
+
+.container-egyedi {
+    margin-bottom: -20px;
+    border-bottom: 2px solid black;
+}
+
+.book-title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: -12px;
+}
+
+.hr {
+    height: 5px;
+    border: 2px solid green;
+    background-color: green;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 70px;
+    height: 25px;
+    width: 50px;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 77px;
+    right: 25px;
+    height: 25px;
+    width: 50px;
+}
+
+.top-right {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    height: 25px;
+    width: 75px;
+}
+
+.kep {
+    width: 100%;
 }
